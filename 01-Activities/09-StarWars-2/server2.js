@@ -38,7 +38,7 @@ app.get("/:character", function(req, res) {
   // What does this log?
   console.log(chosen);
 
-  res.end();
+  res.json(chosen);
 });
 
 
